@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation Catalyst - 500+ Questions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-comments"></i> Conversation Catalyst</h1>
+            <p>Break the ice, deepen connections, and never run out of things to say with our collection of 500+ conversation starters</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="number">500+</div>
+                    <div class="label">Questions</div>
+                </div>
+                <div class="stat-item">
+                    <!-- Updated the number of categories to reflect the expanded list -->
+                    <div class="number">12+</div>
+                    <div class="label">Categories</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">∞</div>
+                    <div class="label">Conversations</div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="controls">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search conversation starters...">
+            </div>
+            <button class="btn btn-primary" id="randomBtn">
+                <i class="fas fa-random"></i> Random Question
+            </button>
+        </div>
+        
+        <div class="category-filter" id="categoryFilter">
+            </div>
+        
+        <div class="question-counter">
+            Showing <span id="currentCount">12</span> of <span id="totalCount">500+</span> questions
+        </div>
+        
+        <div class="question-grid" id="questionGrid">
+            </div>
+        
+        <div class="pagination" id="pagination">
+            </div>
+        
+        <div class="featured-section">
+            <div class="featured-content">
+                <h2>Never run out of things to say</h2>
+                <p>Our carefully curated collection of conversation starters helps you break the ice, build connections, and deepen relationships in any situation.</p>
+                <button class="btn btn-primary">Get the Mobile App</button>
+            </div>
+            <div class="featured-image">
+                <i class="fas fa-comment-dots"></i>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <div class="instruction-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>How to Use</h3>
+                <p>Browse questions by category or use the search to find the perfect conversation starter for any situation.</p>
+            </div>
+            <div class="instruction-card">
+                <i class="fas fa-random"></i>
+                <h3>Random Question</h3>
+                <p>Can't decide? Click the random button to get a surprise question from any category.</p>
+            </div>
+            <div class="instruction-card">
+                <i class="fas fa-bookmark"></i>
+                <h3>Save Favorites</h3>
+                <p>Save your favorite questions to revisit later when you need them most.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Conversation Catalyst &copy; 2025 | Never run out of things to say</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
